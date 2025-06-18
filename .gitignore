@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data & Models
+*.npy
+*.pkl
+*.h5
+*.hdf5
+*.ckpt
+*.csv
+*.npz
+*.log
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+pip-log.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Backup
+*~
+*.npy
+*.bak
