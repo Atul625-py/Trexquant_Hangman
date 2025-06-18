@@ -22,7 +22,7 @@ This project solves Hangman using a hybrid of deep learning and rule-based metho
 
 ## 🧱 Model
 
-- Embedding → BiLSTM (64) → BiLSTM (32) → Dense (32) → Output (26 sigmoid)
+- Embedding → BiLSTM (128) → BiLSTM (64) → Dense (48) → Output (26 sigmoid)
 - Trained with `binary_crossentropy` & SGD
 - Saved as `bi_lstm.weights.h5`
 
@@ -44,5 +44,7 @@ This project solves Hangman using a hybrid of deep learning and rule-based metho
 | 0.60      | 52            |
 | 0.65      | 58            |
 
+A final accuracy of 61% was obtained on test runs across
+1000 different words.
 
 
